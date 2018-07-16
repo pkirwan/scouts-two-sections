@@ -173,7 +173,7 @@ h1, p {
 	margin-bottom: 22px;
 }
 h1, h2, h4, h5 {
-	font-family: "Coming Soon", cursive;
+	font-family: 'Nunito Sans', sans-serif;
 	color: #8fbe00;
 }
 h1 {
@@ -236,7 +236,7 @@ buttons
 ==============================================
 */
 .btn {
-	font-family: "Coming Soon", cursive;
+	font-family: 'Nunito Sans', sans-serif;
 	border-radius: 5px;
 	background:#fff;
 	color: #8fbe00;
@@ -399,7 +399,7 @@ text transform
 	color: #8fbe00;
 }
 #sig {
-	font-family: "Coming Soon", cursive;
+	font-family: 'Nunito Sans', sans-serif;
 	font-weight: 600;
 }
 #activepage {
