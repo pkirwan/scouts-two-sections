@@ -3,7 +3,11 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name = "viewport" content = "width = device-width">
-		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+		<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' cdn.report-uri.com; style-src 'self' fonts.googleapis.com; font-src fonts.gstatic.com; connect-src f21f6ac16a785bc92af44e953728c15d.report-uri.com; upgrade-insecure-requests">
+		<script type="text/json" id="csp-report-uri">
+		{"keys" : ["blockedURI", "columnNumber", "disposition", "documentURI", "effectiveDirective", "lineNumber", "originalPolicy", "referrer", "sample", "sourceFile", "statusCode", "violatedDirective"],
+		"reportUri" : "https://f21f6ac16a785bc92af44e953728c15d.report-uri.com/r/d/csp/enforce"}
+		</script>
 		<meta name="Description" content="Contact form for more information about 21st Hammersmith Scout Group">
 		<title>Contact &ndash; 21st Hammersmith Scout Group</title>
 		<link rel="stylesheet" href="assets/stylesheets/main.css">
@@ -13,7 +17,7 @@
 	<body>
 		<header class="primary-header container group">
 			<h1 class="logo">
-				<a href="https://www.21sthammersmith.org.uk"><img src="assets/logo.png" width="100" height="100" alt="Scout logo" style="height: 100px; width: 100px" /></a>
+				<a href="https://www.21sthammersmith.org.uk"><img src="assets/logo.png" width="100" height="100" alt="Scout logo" class="100px" /></a>
 			</h1>
 			<h1 class="logotext">
 				<a href="https://www.21sthammersmith.org.uk">21<span id="super">st</span> Hammersmith<br>Scout Group</a>
@@ -38,7 +42,7 @@
 					<h2>Contact us</h2>
 					<p>You can contact us using the form on this page.<br>Alternatively, please use the contact details below.</p>
 					<h4>Beavers</h4>
-					<p>Sam Reidy<br>email&#58; <a href="mailto:samreidy@hotmail.co.uk">samreidy&#64;hotmail.co.uk</a><br>tel&#58; 07838 999048</p>
+					<p>Peter Kirwan<br>email&#58; <a href="mailto:beavers@21sthammersmith.org.uk">beavers&#64;21sthammersmith.org.uk</a></p>
 					<h4>Cubs</h4>
 					<p>Dawn Sheppard<br>email&#58; <a href="mailto:cubs@21sthammersmith.org.uk">cubs&#64;21sthammersmith.org.uk</a></p>
 				</section><!--
@@ -50,7 +54,7 @@
 			</div>
 		</section>
 		<footer class="primary-footer container group">
-			<section id="twitter"><a href="https://www.twitter.com/21sthammersmith"><img src="assets/Twitter_logo_white.png" alt="Twitter logo" width="13" height="13" style="height: 13px; width: 13px" /> @21stHammersmith</a></section>
+			<section id="twitter"><a href="https://www.twitter.com/21sthammersmith"><img src="assets/Twitter_logo_white.png" alt="Twitter logo" width="13" height="13" class="twitterlogo" /> @21stHammersmith</a></section>
 			<small>&copy; 1918<script>new Date().getFullYear()>1918&&document.write("-"+new Date().getFullYear());</script>, 21st Hammersmith Scout Group.<br>Site design by <span id="sig">Rama</span>.</small>
 		</footer>
 	</body>	

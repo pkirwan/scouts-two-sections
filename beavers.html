@@ -3,7 +3,11 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name = "viewport" content = "width = device-width">
-		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+		<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' cdn.report-uri.com; style-src 'self' fonts.googleapis.com; font-src fonts.gstatic.com; connect-src f21f6ac16a785bc92af44e953728c15d.report-uri.com; upgrade-insecure-requests">
+		<script type="text/json" id="csp-report-uri">
+		{"keys" : ["blockedURI", "columnNumber", "disposition", "documentURI", "effectiveDirective", "lineNumber", "originalPolicy", "referrer", "sample", "sourceFile", "statusCode", "violatedDirective"],
+		"reportUri" : "https://f21f6ac16a785bc92af44e953728c15d.report-uri.com/r/d/csp/enforce"}
+		</script>
 		<meta name="Description" content="In Beaver Scouts we believe that fun, friendship and adventure are what matter most. If you enjoy being creative, playing games, going on visits and discovering the world around you then you&#39;ll love what we do.">
 		<title>Beavers &ndash; 21st Hammersmith Scout Group</title>
 		<link rel="stylesheet" href="assets/stylesheets/main.css">
@@ -13,7 +17,7 @@
 	<body>
 		<header class="primary-header container group">
 			<h1 class="logo">
-				<a href="https://www.21sthammersmith.org.uk"><img src="assets/logo.png" width="100" height="100" alt="Scout logo" style="height: 100px; width: 100px" /></a>
+				<a href="https://www.21sthammersmith.org.uk"><img src="assets/logo.png" width="100" height="100" alt="Scout logo" class="100px" /></a>
 			</h1>
 			<h1 class="logotext">
 				<a href="https://www.21sthammersmith.org.uk">21<span id="super">st</span> Hammersmith<br>Scout Group</a>
@@ -31,7 +35,7 @@
 		</header>
 		<section class="section-row">
 			<div class="about container">
-				<img src="assets/Beaver_RGB_blue_linear-small.png" width="332" height="92" alt="Beaver scout logo" style="height: 92px; width: 332px" />
+				<img src="assets/Beaver_RGB_blue_linear-small.png" width="332" height="92" alt="Beaver scout logo" class="beaverslogo" />
 				<p>The Beaver Scout leader is&#58; Peter &#40;Rama&#41;.</p>
 			</div>
 		</section>
@@ -46,23 +50,23 @@
 					<h2>Badges to do at home</h2>
 					<p>Certain badges can be fully or partially completed outside of the weekly meetings. Click to download the worksheet then print out, fill in and return to a leader to earn your badge.
 					<div id="badges">
-					<a href="assets/photography-badge.pdf"><img src="assets/photography-badge.png" height="70" width="70" alt="Photography badge" style="height: 70px; width: 70px" /></a>
-					<a href="assets/gardener-badge.pdf"><img src="assets/gardener-badge.png" height="70" width="70" alt="Gardener badge" style="height: 70px; width: 70px" /></a>
-					<a href="assets/collector-badge.pdf"><img src="assets/collector-badge.png" height="70" width="70" alt="Collector badge" style="height: 70px; width: 70px" /></a>
-					<a href="assets/sports-badge.pdf"><img src="assets/sports-badge.png" height="70" width="70" alt="Sports badge" style="height: 70px; width: 70px" /></a>
-					<a href="assets/musician_badge_stage_1.pdf"><img src="assets/musician-badge-stage-1.png" height="70" width="70" alt="Musician badge stage 1" style="height: 70px; width: 70px" /></a>
-					<a href="assets/swimming_badge_stage_1.pdf"><img src="assets/swimming-badge-stage-1.png" height="70" width="70" alt="Swimming badge stage 1" style="height: 70px; width: 70px" /></a>
-					<a href="assets/swimming_badge_stage_2.pdf"><img src="assets/swimming-badge-stage-2.jpg" height="70" width="70" alt="Swimming badge stage 2" style="height: 70px; width: 70px" /></a></div></p>
+					<a href="assets/photography-badge.pdf"><img src="assets/photography-badge.png" height="70" width="70" alt="Photography badge" class="beaverbadge" /></a>
+					<a href="assets/gardener-badge.pdf"><img src="assets/gardener-badge.png" height="70" width="70" alt="Gardener badge" class="beaverbadge" /></a>
+					<a href="assets/collector-badge.pdf"><img src="assets/collector-badge.png" height="70" width="70" alt="Collector badge" class="beaverbadge" /></a>
+					<a href="assets/sports-badge.pdf"><img src="assets/sports-badge.png" height="70" width="70" alt="Sports badge" class="beaverbadge" /></a>
+					<a href="assets/musician_badge_stage_1.pdf"><img src="assets/musician-badge-stage-1.png" height="70" width="70" alt="Musician badge stage 1" class="beaverbadge" /></a>
+					<a href="assets/swimming_badge_stage_1.pdf"><img src="assets/swimming-badge-stage-1.png" height="70" width="70" alt="Swimming badge stage 1" class="beaverbadge" /></a>
+					<a href="assets/swimming_badge_stage_2.pdf"><img src="assets/swimming-badge-stage-2.jpg" height="70" width="70" alt="Swimming badge stage 2" class="beaverbadge" /></a></div></p>
 				</section><!--
 				--><section class="col-1-2">
-					<img style="height: auto; width: 400px" src="assets/beaver-slide.jpg" width="400" height="200" alt="Photo gallery" /><br>
+					<img class="beaverimg" cq src="assets/beaver-slide.jpg" width="400" height="200" alt="Beaver slide" /><br>
 					<iframe class="map" src="https://www.youtube.com/embed/j_Y_lN7YS_U" allowfullscreen="" frameborder="0" height="270" width="480"></iframe>
 				</section>
 				
 			</div>
 		</section>
 		<footer class="primary-footer container group">
-			<section id="twitter"><a href="https://www.twitter.com/21sthammersmith"><img src="assets/Twitter_logo_white.png" alt="Twitter logo" width="13" height="13" style="height: 13px; width: 13px" /> @21stHammersmith</a></section>
+			<section id="twitter"><a href="https://www.twitter.com/21sthammersmith"><img src="assets/Twitter_logo_white.png" alt="Twitter logo" width="13" height="13" class="twitterlogo" /> @21stHammersmith</a></section>
 			<small>&copy; 1918<script>new Date().getFullYear()>1918&&document.write("-"+new Date().getFullYear());</script>, 21st Hammersmith Scout Group.<br>Site design by <span id="sig">Rama</span>.</small>
 		</footer>
 	</body>	

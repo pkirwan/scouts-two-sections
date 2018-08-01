@@ -422,6 +422,7 @@ map
 */
 .map {
 	max-width: 100%;
+	border: 0;
 }
 @media screen and (min-width: 720px) {
 	.map {
@@ -543,5 +544,43 @@ badge images
 	display: inline-block;
 	max-width: 100%;
 	height: auto;
-	width: auto\9; /* ie8
+	width: auto\9; /* ie8 */
+}
+
+
+/*
+==============================================
+image styles
+==============================================
+*/
+.100px {
+	height: 100px; 
+	width: 100px;
+}
+.beaverslogo {
+	height: 92px; 
+	width: 332px;
+}
+.cubslogo {
+	height: 85px; 
+	width: 238px;
+}
+.beaverbadge {
+	height: 70px; 
+	width: 70px;
+}
+.beaverimg {
+	height: auto; 
+	width: 400px;
+}
+.twitterlogo {
+	height: 13px; 
+	width: 13px;
+}
+.lego {
+	height: 240px; 
+	width: 150px;
+}
+.iframe {
+	display:none;
 }

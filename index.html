@@ -3,7 +3,11 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name = "viewport" content = "width = device-width">
-		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+		<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' cdn.report-uri.com; style-src 'self' fonts.googleapis.com; font-src fonts.gstatic.com; connect-src f21f6ac16a785bc92af44e953728c15d.report-uri.com; upgrade-insecure-requests">
+		<script type="text/json" id="csp-report-uri">
+		{"keys" : ["blockedURI", "columnNumber", "disposition", "documentURI", "effectiveDirective", "lineNumber", "originalPolicy", "referrer", "sample", "sourceFile", "statusCode", "violatedDirective"],
+		"reportUri" : "https://f21f6ac16a785bc92af44e953728c15d.report-uri.com/r/d/csp/enforce"}
+		</script>
 		<meta name="Description" content="Beaver Scouts and Cub Scouts in Brook Green, London. 21st Hammersmith Scout Group welcomes members from 6 years of age to 10&frac12;.">
 		<meta name="google-site-verification" content="2v6QtbTihfUTI90JzWcanxgc1R69WP9cvvpQJoAdYmQ" />
 		<title>21st Hammersmith Scout Group</title>
@@ -14,7 +18,7 @@
 	<body>
 		<header class="primary-header container group">
 			<h1 class="logo">
-				<a href="https://www.21sthammersmith.org.uk"><img src="assets/logo.png" width="100px" height="100px" alt="Scout logo" style="height: 100px; width: 100px" /></a>
+				<a href="https://www.21sthammersmith.org.uk"><img src="assets/logo.png" width="100px" height="100px" alt="Scout logo" class="100px" /></a>
 			</h1>
 			<h1 class="logotext">
 				<a href="https://www.21sthammersmith.org.uk">21<span id="super">st</span> Hammersmith<br>Scout Group</a>
@@ -37,13 +41,13 @@
 		<section class="row">
 			<div class="grid">
 				<section class="col-1-2">
-					<a href="beavers"><img src="assets/beaver-lego.png" width="150" height="240" alt="Lego beaver scout" style="height: 240px; width: 150px" /></a>
+					<a href="beavers"><img src="assets/beaver-lego.png" width="150" height="240" alt="Lego beaver scout" class="lego" /></a>
 					<h2><a href="beavers">Beaver Scouts&#58; ages 6 &ndash; 8</a></h2>
 					<p>In Beaver Scouts we believe that fun, friendship and adventure are what matter most. If you enjoy being creative, playing games, going on visits and discovering the world around you then you&#39;ll love what we do.</p>
 					<a class="btn btn-alt" href="contact">Contact</a>
 				</section><!--
 				--><section class="col-1-2">
-					<a href="cubs"><img src="assets/cub-lego.png" width="150" height="240" alt="Lego cub scout" style="height: 240px; width: 150px" /></a>
+					<a href="cubs"><img src="assets/cub-lego.png" width="150" height="240" alt="Lego cub scout" class="lego" /></a>
 					<h2><a href="cubs">Cub Scouts&#58; ages 8 &ndash; 10&frac12;</a></h2>
 					<p>For Cub Scouts there&#39;s never a dull moment. From getting creative to outdoor activities and weekend camps, our programme is packed with adventure. You&#39;ll learn new skills, make new friends and most importantly, have FUN&#33;&#33;</p>
 					<a class="btn btn-alt" href="contact">Contact</a>
@@ -51,7 +55,7 @@
 			</div>
 		</section>
 		<footer class="primary-footer container group">
-			<section id="twitter"><a href="https://www.twitter.com/21sthammersmith"><img src="assets/Twitter_logo_white.png" alt="Twitter logo" width="13" height="13" style="height: 13px; width: 13px" /> @21stHammersmith</a></section>
+			<section id="twitter"><a href="https://www.twitter.com/21sthammersmith"><img src="assets/Twitter_logo_white.png" alt="Twitter logo" width="13" height="13" class="twitterlogo" /> @21stHammersmith</a></section>
 			<small>&copy; 1918<script>new Date().getFullYear()>1918&&document.write("-"+new Date().getFullYear());</script>, 21st Hammersmith Scout Group.<br>Site design by <span id="sig">Rama</span>.</small>
 		</footer>
 	</body>	
