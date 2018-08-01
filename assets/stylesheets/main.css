@@ -209,8 +209,7 @@ links
 ==============================================
 */
 a:hover {
-	opacity: 0.6;
-	filter: alpha(opacity=60);
+	color: #000;
 }
 a {
 	color: #7413dc;
