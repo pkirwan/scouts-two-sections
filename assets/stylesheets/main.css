@@ -52,9 +52,9 @@ custom styles
 ==============================================
 */
 body {
-	background: #00a8c6;
+	background: #7413dc;
 	color: #888;
-	font: 400 16px/22px "Trebuchet MS", Helvetica, sans-serif;
+	font: 400 16px/22px 'Nunito Sans', sans-serif;
 }
 /*
 ==============================================
@@ -174,7 +174,7 @@ h1, p {
 }
 h1, h2, h4, h5 {
 	font-family: 'Nunito Sans', sans-serif;
-	color: #8fbe00;
+	color: #00b8a3;
 }
 h1 {
 	font-size: 26px;
@@ -212,7 +212,7 @@ a:hover {
 	color: #aee239;
 }
 a {
-	color: #8fbe00;
+	color: #00b8a3;
 	text-decoration: none;
 }
 p a {
@@ -239,18 +239,18 @@ buttons
 	font-family: 'Nunito Sans', sans-serif;
 	border-radius: 5px;
 	background:#fff;
-	color: #8fbe00;
+	color: #00b8a3;
 	cursor: pointer;
 	display: inline-block;
 	font-weight: 600;
 	margin: 0;
 }
 .btn-alt {
-	border: 1px solid #8fbe00;
+	border: 1px solid #00b8a3;
 	padding: 5px 20px;
 }
 .btn-alt:hover {
-	background: #8fbe00;
+	background: #00b8a3;
 	color: #f9f2e7;
 }
 /*
@@ -396,7 +396,7 @@ text transform
 ==============================================
 */
 #cubtext {
-	color: #8fbe00;
+	color: #00b8a3;
 }
 #sig {
 	font-family: 'Nunito Sans', sans-serif;
@@ -438,10 +438,10 @@ form
 input,
 select,
 textarea {
-	font: 400 16px/22px "Trebuchet MS", Helvetica, sans-serif;
+	font: 400 16px/22px 'Nunito Sans', sans-serif;
 }
 .register-group label {
-	color: #8fbe00;
+	color: #00b8a3;
 }
 .register-group input,
 .register-group select,
@@ -464,13 +464,13 @@ textarea {
 	height: 78px;
 }
 .btn-default {
-	font: 400 16px/22px "Trebuchet MS", Helvetica, sans-serif;
-	border: 1px solid #8fbe00;
+	font: 400 16px/22px 'Nunito Sans', sans-serif;
+	border: 1px solid #00b8a3;
 	padding: 5px 20px;
 	background: #fff;
 }
 .btn-default:hover {
-	background: #8fbe00;
+	background: #00b8a3;
 	color: #f9f2e7;
 }
 .form-success {
@@ -478,15 +478,15 @@ textarea {
 	padding-top: 32px;
 }
 .form-success a{
-	border: 1px solid #8fbe00;
+	border: 1px solid #00b8a3;
 	border-radius: 5px;
 	padding: 5px 20px;
 	margin: 0;
-	color: #8fbe00;
+	color: #00b8a3;
 	display: inline-block;
 }
 .form-success a:hover {
-	background: #8fbe00;
+	background: #00b8a3;
 	color: #f9f2e7;
 }
 /*
@@ -499,15 +499,15 @@ photo links
 	text-align: center;
 }
 .photo-link a{
-	border: 1px solid #8fbe00;
+	border: 1px solid #00b8a3;
 	border-radius: 5px;
 	padding: 5px 20px;
 	margin: 0;
-	color: #8fbe00;
+	color: #00b8a3;
 	display: inline-block;
 }
 .photo-link a:hover {
-	background: #8fbe00;
+	background: #00b8a3;
 	color: #f9f2e7;
 }
 
@@ -576,10 +576,6 @@ image styles
 .twitterlogo {
 	height: 13px; 
 	width: 13px;
-}
-.lego {
-	height: 240px; 
-	width: 150px;
 }
 .iframe {
 	display:none;
