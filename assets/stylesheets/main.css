@@ -225,6 +225,9 @@ p a {
 .primary-header a:hover {
 	font-weight: 600;
 }
+.primary-footer a:hover {
+	color: #000;
+}
 a img:hover {
 	opacity: 0.6;
 	filter: alpha(opacity=60);
