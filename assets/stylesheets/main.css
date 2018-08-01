@@ -209,7 +209,7 @@ links
 ==============================================
 */
 a:hover {
-	color: #aee239;
+	color: #00d8bf;
 }
 a {
 	color: #00b8a3;
@@ -222,9 +222,8 @@ p a {
 .primary-footer a {
 	color: #f9f2e7;
 }
-.primary-header a:hover,
-.primary-footer a:hover {
-	color: #aee239;
+.primary-header a:hover {
+	font-weight: 600;
 }
 a img:hover {
 	opacity: 0.6;
@@ -265,7 +264,7 @@ about
 	text-align: center;
 }
 .about h2 {
-	color: #aee239;
+	color: #00b8a3;
 	font-size: 20px;
 }
 .about p {
@@ -375,8 +374,8 @@ footer
 	margin: 0 auto;
 }
 .primary-footer {
-	color: #aee239;
-	font-size: 13px;
+	color: #f9f2e7;
+	font-size: 15px;
 	padding: 40px 20px;
 	text-align: center;
 }
@@ -395,18 +394,15 @@ footer
 text transform
 ==============================================
 */
-#cubtext {
-	color: #00b8a3;
-}
 #sig {
 	font-family: 'Nunito Sans', sans-serif;
 	font-weight: 600;
 }
 #activepage {
-	color:#aee239;
+	font-weight: 600;
 }
 #twitter {
-	font-size: 16px;
+	font-size: 15px;
 	width: 165px;
 	margin: 0 auto;
 }
