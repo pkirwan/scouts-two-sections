@@ -174,7 +174,7 @@ h1, p {
 }
 h1, h2, h4, h5 {
 	font-family: 'Nunito Sans', sans-serif;
-	color: #00b8a3;
+	color: #7413dc;
 }
 h1 {
 	font-size: 26px;
@@ -209,10 +209,10 @@ links
 ==============================================
 */
 a:hover {
-	color: #00d8bf;
+	color: #8716ff;
 }
 a {
-	color: #00b8a3;
+	color: #7413dc;
 	text-decoration: none;
 }
 p a {
@@ -238,18 +238,18 @@ buttons
 	font-family: 'Nunito Sans', sans-serif;
 	border-radius: 5px;
 	background:#fff;
-	color: #00b8a3;
+	color: #7413dc;
 	cursor: pointer;
 	display: inline-block;
 	font-weight: 600;
 	margin: 0;
 }
 .btn-alt {
-	border: 1px solid #00b8a3;
+	border: 1px solid #7413dc;
 	padding: 5px 20px;
 }
 .btn-alt:hover {
-	background: #00b8a3;
+	background: #7413dc;
 	color: #f9f2e7;
 }
 /*
@@ -302,7 +302,6 @@ header
 	letter-spacing: -.5px;
 	line-height: 24px;
 	padding: 0 0;
-	text-transform: uppercase;
 	text-align: center;
 	outline: 1px solid transparent;
 }
@@ -436,7 +435,7 @@ textarea {
 	font: 400 16px/22px 'Nunito Sans', sans-serif;
 }
 .register-group label {
-	color: #00b8a3;
+	color: #7413dc;
 }
 .register-group input,
 .register-group select,
@@ -460,12 +459,12 @@ textarea {
 }
 .btn-default {
 	font: 400 16px/22px 'Nunito Sans', sans-serif;
-	border: 1px solid #00b8a3;
+	border: 1px solid #7413dc;
 	padding: 5px 20px;
 	background: #fff;
 }
 .btn-default:hover {
-	background: #00b8a3;
+	background: #7413dc;
 	color: #f9f2e7;
 }
 .form-success {
@@ -473,15 +472,15 @@ textarea {
 	padding-top: 32px;
 }
 .form-success a{
-	border: 1px solid #00b8a3;
+	border: 1px solid #7413dc;
 	border-radius: 5px;
 	padding: 5px 20px;
 	margin: 0;
-	color: #00b8a3;
+	color: #7413dc;
 	display: inline-block;
 }
 .form-success a:hover {
-	background: #00b8a3;
+	background: #7413dc;
 	color: #f9f2e7;
 }
 /*
@@ -494,15 +493,15 @@ photo links
 	text-align: center;
 }
 .photo-link a{
-	border: 1px solid #00b8a3;
+	border: 1px solid #7413dc;
 	border-radius: 5px;
 	padding: 5px 20px;
 	margin: 0;
-	color: #00b8a3;
+	color: #7413dc;
 	display: inline-block;
 }
 .photo-link a:hover {
-	background: #00b8a3;
+	background: #7413dc;
 	color: #f9f2e7;
 }
 
