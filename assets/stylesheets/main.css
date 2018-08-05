@@ -266,7 +266,7 @@ about
 	padding: 11px 11px;
 	text-align: center;
 }
-.about h2 {
+.about h1, h2 {
 	font-size: 20px;
     color: #f9f2e7;
 }
