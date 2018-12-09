@@ -51,8 +51,9 @@
 				</section><!--
 				--><section class="col-1-2 register-group">
 					<script type="text/javascript">var submitted=false;</script>
+					<script type="text/javascript">function itemval() {if(!document.getElementById("item_21").value) {submitted=true;} else {return false;}} </script>
 					<iframe name="hidden_iframe" id="hidden_iframe" class="iframe" onload="if(submitted) {window.location='contact-success';}"></iframe>
-					<form action="https://docs.google.com/forms/d/1Hp9sKe1Eh8hwCy3JGcsxFzL5LefBICvHz_8Oi5HdYDo/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+					<form action="https://docs.google.com/forms/d/1Hp9sKe1Eh8hwCy3JGcsxFzL5LefBICvHz_8Oi5HdYDo/formResponse" method="post" target="hidden_iframe" onsubmit="return itemval();"">
 						<div class="ss-form-question errorbox-good" role="listitem">
 							<div dir="ltr" class="ss-item  ss-text">
 								<div class="ss-form-entry">
@@ -74,7 +75,8 @@
 									<div class="error-message"></div>
 								</div>
 							</div>
-						</div> 
+						</div>
+						<input id="item_21" name="item_21" size="25" type="text" value="" /> 
 						<div class="ss-form-question errorbox-good" role="listitem">
 							<div dir="ltr" class="ss-item  ss-text">
 								<div class="ss-form-entry">
@@ -128,7 +130,7 @@
 		</section>
 		<footer class="primary-footer container group">
 			<section id="twitter"><a href="https://www.twitter.com/21sthammersmith"><img src="assets/Twitter_logo_white.png" alt="Twitter logo" width="13" height="13" class="twitterlogo" /> @21stHammersmith</a><br><a href="https://www.21sthammersmith.org.uk/privacy-policy">Privacy policy</a></section>
-			<small>&copy; 1918<script>new Date().getFullYear()>1918&&document.write("-"+new Date().getFullYear());</script>, 21st Hammersmith Scout Group.<br>Site design by <a href="https://github.com/21sthammersmith/21sthammersmith.org.uk">pkirwan</a>.</small>
+			<small>&copy; 2018, 21st Hammersmith Scout Group.<br>Site design by <a href="https://github.com/21sthammersmith/21sthammersmith.org.uk">pkirwan</a>.</small>
 		</footer>
 	</body>	
 </html>
