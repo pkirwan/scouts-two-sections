@@ -429,78 +429,14 @@ map
 }
 /*
 ==============================================
-form
+programme links
 ==============================================
 */
-
-input,
-select,
-textarea {
-	font: 400 16px/22px 'Nunito Sans', sans-serif;
-}
-.register-group label {
-	color: #7413dc;
-}
-.register-group input,
-.register-group select,
-.register-group textarea {
-	border: 1px solid #c6c9cc;
-	border-radius: 5px;
-	display: block;
-	margin: 5px 0 7px 0;
-	padding: 5px 8px;
-}
-.register-group input,
-.register-group textarea {
-	width: 100%;
-}
-.register-group select {
-	height: 34px;
-	width: 60px;
-}
-.register-group textarea {
-	height: 78px;
-}
-.btn-default {
-	font: 400 16px/22px 'Nunito Sans', sans-serif;
-	border: 1px solid #7413dc;
-	padding: 5px 20px;
-	background: #fff;
-}
-.btn-default:hover {
-	background: #7413dc;
-	color: #f9f2e7;
-}
-.form-success {
-	height: 425px;
-	padding-top: 32px;
-}
-.form-success a{
-	border: 1px solid #7413dc;
-	border-radius: 5px;
-	padding: 5px 20px;
-	margin: 0;
-	color: #7413dc;
-	display: inline-block;
-}
-.form-success a:hover {
-	background: #7413dc;
-	color: #f9f2e7;
-}
-#item_21 {
-    display: none;
-}
-
-/*
-==============================================
-photo links
-==============================================
-*/
-.photo-link {
+.programme-link {
 	padding-top: 12px;
 	text-align: center;
 }
-.photo-link a{
+.programme-link a{
 	border: 1px solid #7413dc;
 	border-radius: 5px;
 	padding: 5px 20px;
@@ -508,16 +444,14 @@ photo links
 	color: #7413dc;
 	display: inline-block;
 }
-.photo-link a:hover {
+.programme-link a:hover {
 	background: #7413dc;
 	color: #f9f2e7;
 }
-
 /*
 ==============================================
 banner
 ==============================================
-*/
 #banner { 
     position: absolute; 
     top: 0; 
@@ -530,7 +464,7 @@ banner
     margin: 0 auto; 
     padding: 10px; 
 }
-
+*/
 /*
 ==============================================
 badge images
@@ -548,8 +482,6 @@ badge images
 	height: auto;
 	width: auto\9; /* ie8 */
 }
-
-
 /*
 ==============================================
 image styles
@@ -577,7 +509,7 @@ image styles
 }
 .osmimg {
 	height: auto;
-	width:384px;
+	width:240px;
 }
 .twitterlogo {
 	height: 14px; 
