@@ -575,6 +575,10 @@ image styles
 	height: auto; 
 	width: 400px;
 }
+.osmimg {
+	height: auto;
+	width:384px;
+}
 .twitterlogo {
 	height: 14px; 
 	width: 14px;
