@@ -467,6 +467,20 @@ banner
 */
 /*
 ==============================================
+goraise
+==============================================
+*/
+.goraise {
+	text-align: center;
+	background: #f9f2e7;
+	padding: 10px 20px 10px 20px;
+	min-width: auto;
+}
+.goraise img {
+	vertical-align: sub;
+}
+/*
+==============================================
 badge images
 ==============================================
 */
@@ -498,6 +512,10 @@ image styles
 .cubslogo {
 	height: 85px; 
 	width: 238px;
+}
+.goraiselogo {
+	height: 22px; 
+	width: 83px;
 }
 .beaverbadge {
 	height: 70px; 
