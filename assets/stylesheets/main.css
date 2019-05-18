@@ -223,7 +223,7 @@ p a {
 	color: #f9f2e7;
 }
 .primary-header a:hover {
-	font-weight: 600;
+	color: #7bdb14;
 }
 .primary-footer a:hover {
 	color: #000;
@@ -400,7 +400,7 @@ text transform
 ==============================================
 */
 #activepage {
-	font-weight: 600;
+	color: #7bdb14;
 }
 #twitter {
 	font-size: 15px;
