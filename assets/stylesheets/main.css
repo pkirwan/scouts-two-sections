@@ -184,7 +184,6 @@ h2 {
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 44px;
-	text-align: center;
 }
 h3 {
 	font-size: 18px;
@@ -403,6 +402,9 @@ text transform
 		float: right;
 		text-align: right;
 	}
+}
+#center {
+	text-align: center;
 }
 /*
 ==============================================
