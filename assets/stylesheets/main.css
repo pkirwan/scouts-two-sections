@@ -223,10 +223,10 @@ p a {
 	color: #f9f2e7;
 }
 .primary-header a:hover {
-	color: #7bdb14;
+	color: #fff;
 }
 .primary-footer a:hover {
-	color: #000;
+	color: #c69ff1;
 }
 a img:hover {
 	opacity: 0.6;
@@ -313,8 +313,14 @@ header
 }
 .nav li {
 	display: inline-block;
-	margin: 10px 10px;
 	vertical-align: top;
+}
+.nav a {
+	padding: 10px 10px;
+}
+.nav a:hover {
+	color: #7413dc;
+	background: #fff;
 }
 @media screen and (min-width: 1024px) {
 	.logo {
