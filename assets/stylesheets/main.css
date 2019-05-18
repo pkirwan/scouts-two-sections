@@ -429,13 +429,13 @@ map
 }
 /*
 ==============================================
-programme links
+button links
 ==============================================
 */
-.programme-link {
+.btn-link {
 	text-align: center;
 }
-.programme-link a{
+.btn-link a{
 	border: 1px solid #7413dc;
 	border-radius: 5px;
 	padding: 5px 20px;
@@ -443,7 +443,7 @@ programme links
 	color: #7413dc;
 	display: inline-block;
 }
-.programme-link a:hover {
+.btn-link a:hover {
 	background: #7413dc;
 	color: #f9f2e7;
 }
