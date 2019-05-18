@@ -327,6 +327,7 @@ header
 .nav li {
 	margin: 0px;
 }
+}
 @media screen and (min-width: 1024px) {
 	.logo {
 		float: left;
