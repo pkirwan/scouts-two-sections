@@ -234,29 +234,6 @@ a img:hover {
 }
 /*
 ==============================================
-buttons
-==============================================
-*/
-.btn {
-	font-family: 'Nunito Sans', sans-serif;
-	border-radius: 5px;
-	background:#fff;
-	color: #7413dc;
-	cursor: pointer;
-	display: inline-block;
-	font-weight: 600;
-	margin: 0;
-}
-.btn-alt {
-	border: 1px solid #7413dc;
-	padding: 5px 20px;
-}
-.btn-alt:hover {
-	background: #7413dc;
-	color: #f9f2e7;
-}
-/*
-==============================================
 about
 ==============================================
 */
@@ -429,13 +406,13 @@ map
 }
 /*
 ==============================================
-button links
+buttons
 ==============================================
 */
-.btn-link {
+.btn {
 	text-align: center;
 }
-.btn-link a{
+.btn a{
 	border: 1px solid #7413dc;
 	border-radius: 5px;
 	padding: 5px 20px;
@@ -443,7 +420,7 @@ button links
 	color: #7413dc;
 	display: inline-block;
 }
-.btn-link a:hover {
+.btn a:hover {
 	background: #7413dc;
 	color: #f9f2e7;
 }
