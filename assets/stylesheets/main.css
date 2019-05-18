@@ -377,7 +377,8 @@ text transform
 ==============================================
 */
 #activepage {
-	color: #7bdb14;
+	background: #fff;
+	color: #7413dc;
 }
 #twitter {
 	font-size: 15px;
