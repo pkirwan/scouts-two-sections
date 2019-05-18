@@ -406,6 +406,9 @@ text transform
 #center {
 	text-align: center;
 }
+#emphasis {
+	color: #7413dc;
+}
 /*
 ==============================================
 map
