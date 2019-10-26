@@ -1,5 +1,5 @@
 ## Webpage
-This repository contains the static webpage of https://www.21sthammersmith.org.uk.
+This repository contains the pre-scouts version of the webpage for 21st Hammersmith Scout Group.
 
 ## License
 
