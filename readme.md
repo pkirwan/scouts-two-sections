@@ -1,5 +1,5 @@
 ## Webpage
-This repository contains the pre-scouts version of the webpage for 21st Hammersmith Scout Group.
+This repository contains the two-section version of the webpage for 21st Hammersmith Scout Group.
 
 ## License
 
